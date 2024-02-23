@@ -45,8 +45,6 @@ def get_most_active_cookie(csv_file, date):
     # Find the cookie(s) with the max count
     most_active_cookies = [cookie for cookie, count in cookies.items() if count == max_count]
 
-    print(most_active_cookies)
-
     return most_active_cookies
 
 if __name__ == "__main__":
